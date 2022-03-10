@@ -1,0 +1,24 @@
+{
+  "name": "@htdangkhoa/ms-grpc-user",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/htdangkhoa/ms-grpc-user.git",
+  "author": "Khoa Huynh Tran Dang <khoa.htd@amanotes.com>",
+  "license": "MIT",
+  "scripts": {
+    "dev": "nodemon src/index.js --exec babel-node"
+  },
+  "dependencies": {
+    "@babel/runtime": "^7.17.2",
+    "@grpc/grpc-js": "^1.5.7",
+    "@grpc/proto-loader": "^0.6.9",
+    "@htdangkhoa/ms-grpc-proto": "https://github.com/htdangkhoa/ms-grpc-proto#main"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.17.6",
+    "@babel/core": "^7.17.5",
+    "@babel/node": "^7.16.8",
+    "@babel/preset-env": "^7.16.11",
+    "nodemon": "^2.0.15"
+  }
+}

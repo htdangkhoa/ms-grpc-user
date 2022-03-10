@@ -1,0 +1,23 @@
+[
+  {
+    "id": 1,
+    "email": "dev1@example.com",
+    "name": "Dev 1",
+    "phone": "1234567890",
+    "address": "123 Main St"
+  },
+  {
+    "id": 2,
+    "email": "dev2@example.com",
+    "name": "Dev 2",
+    "phone": "1234567890",
+    "address": "123 Main St"
+  },
+  {
+    "id": 3,
+    "email": "dev3@example.com",
+    "name": "Dev 3",
+    "phone": "1234567890",
+    "address": "123 Main St"
+  }
+]
